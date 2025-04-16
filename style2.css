@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(15, 14, 14);
+}
+#logo {
+  /* position: absolute; */
+  width: 80px;
+  height: 60px;
+  padding: 4px 2px;
+  float: left;
+  margin-left: 1px;
+  padding: 1px 3px;
+  margin-right: 40px;
+  margin-top: 0px;
+}
+
+#login {
+  color: deeppink;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: oblique;
+  position: relative;
+  left: 520px;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: burlywood;
+  text-decoration-skip: 2px;
+}
+.box {
+  border: 2px rgb(239, 241, 138) solid;
+  border-radius: 16px;
+  width: 400px;
+  height: 580px;
+  background-color: rgb(238, 143, 165);
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  left: 430px;
+}
+.header {
+  text-align: center;
+  color: rgb(25, 25, 24);
+  margin: 23px 120px;
+}
+.input1 {
+  margin: 1px 120px;
+  border: 1px rgb(31, 31, 30) solid;
+  background-color: rgb(238, 238, 233);
+  color: rgb(8, 9, 9);
+  height: 20px;
+}
+.input2 {
+  margin: 1px 120px;
+  border: 1px rgb(31, 31, 30) solid;
+  background-color: rgb(238, 238, 233);
+  color: rgb(8, 9, 9);
+  height: 20px;
+}
+.input5 {
+  margin: 1px 120px;
+  border: 1px rgb(31, 31, 30) solid;
+  background-color: rgb(238, 238, 233);
+  color: rgb(8, 9, 9);
+  height: 20px;
+}
+.input6 {
+  margin: 1px 120px;
+  border: 1px rgb(31, 31, 30) solid;
+  background-color: rgb(238, 238, 233);
+  color: rgb(8, 9, 9);
+  height: 20px;
+}
+.input4 {
+  margin: 1px 150px;
+  border: 1px rgb(31, 31, 30) solid;
+  background-color: rgb(238, 238, 233);
+  color: rgb(8, 9, 9);
+  height: 20px;
+}
+#male {
+  margin: 1px 26px;
+  font-size: 20px;
+}
+#female {
+  margin: 1px 35px;
+  font-size: 20px;
+}
+#other {
+  margin: 1px 40px;
+  font-size: 20px;
+}
+.submit {
+  margin: 1px 140px;
+  /* text-align: center; */
+  border: 2px black solid;
+  border-radius: 3px;
+  background-color: brown;
+  color: blanchedalmond;
+}
+.reset {
+  position: relative;
+  right: 120px;
+  border: 2px black solid;
+  border-radius: 3px;
+  background-color: brown;
+  color: blanchedalmond;
+}
+
+.submit:hover {
+  background-color: rgb(203, 101, 101);
+  color: bisque;
+  cursor: pointer;
+}
+.reset:hover {
+  background-color: rgb(203, 101, 101);
+  color: bisque;
+  cursor: pointer;
+}

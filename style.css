@@ -1,0 +1,178 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("https://images.alphacoders.com/105/thumb-1920-1054847.jpg");
+  height: 600px;
+  color: white;
+  font-family: "Mukta", sans-serif;
+  font-family: "Prompt", sans-serif;
+}
+.navbar {
+  border: 3px black solid;
+  background-color: black;
+  height: 90px;
+}
+#logo {
+  /* position: absolute; */
+  width: 130px;
+  height: 90px;
+  padding: 4px 2px;
+  float: left;
+  margin-left: 1px;
+  padding: 1px 3px;
+  margin-right: 40px;
+  margin-top: 1px;
+}
+
+.navbar {
+  background-position: top;
+  margin: 0px 0px;
+}
+.navbar ul {
+  overflow: auto;
+  margin: 0px 0px;
+}
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 30px 20px;
+}
+.navbar li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: beige;
+  padding: 2px 4px;
+  margin: 9px 2px;
+}
+
+.navbar li a:hover {
+  background-color: rgb(26, 26, 21);
+  color: rgb(172, 187, 188);
+}
+#shopcart {
+  float: right;
+  margin: 29px 15px 29px 9px;
+  padding: 2px 4px;
+  background-color: black;
+  cursor: pointer;
+}
+#shopcart:hover {
+  background-color: rgb(42, 41, 41);
+}
+.btn {
+  float: right;
+  background-color: rgb(8, 8, 8);
+  border: 1px rgb(153, 149, 149) solid;
+  border-radius: 6px;
+  font-size: 17px;
+  font-family: "Mukta", sans-serif;
+  font-family: "Prompt", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(171, 164, 166);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+#get {
+  height: 30px;
+  margin-right: 30px;
+  margin-left: 8px;
+}
+#free {
+  height: 30px;
+  width: 125px;
+  margin-left: 10px;
+  margin-right: 8px;
+}
+.btn:hover {
+  color: rgb(252, 241, 252);
+  background-color: gray;
+}
+#profile {
+  float: right;
+  margin: 29px 9px 29px 14px;
+  padding: 2px 4px;
+  background-color: black;
+  cursor: pointer;
+}
+#profile:hover {
+  background-color: rgb(42, 41, 41);
+}
+.build {
+  /* display: inline-block; */
+  /* float:left; */
+  color: #b3fafa;
+  font-size: 50px;
+  display: block;
+  padding: 4px 1px;
+  margin-top: 30px;
+  /* margin-left: 3px;
+    margin-right:1px; */
+  position: relative;
+  left: 30px;
+}
+
+#yourbody {
+  color: white;
+  /* display: inline-block; */
+  font-size: 80px;
+  /* position:absolute;
+    margin-top: 1px;
+    margin-bottom:1px;
+    margin-left:1px; */
+  margin-left: 1px;
+}
+
+#transform {
+  color: #b3fafa;
+  font-size: 50px;
+  display: block;
+  padding: 1px 1px;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  /* margin-left: 3px;
+    margin-right:1px; */
+  position: relative;
+  left: 0px;
+}
+.para {
+  font-weight: bold;
+  font-family: "Mukta", sans-serif;
+  font-family: "Prompt", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  color: #f8f1e7;
+  margin-top: 1px;
+  padding: 1px 1px;
+  position: relative;
+  left: 1px;
+  line-height: 20px;
+  top: 1px;
+}
+.join {
+  border: 1px #040c0c solid;
+  font-family: "Mukta", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Prompt", sans-serif;
+  font-family: "Quicksand", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: rgb(235, 68, 102);
+  color: #f5fcfc;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 5px;
+  position: relative;
+  top: 60px;
+  left: 25px;
+  width: 300px;
+  height: 60px;
+  padding: 14px 13px;
+  margin: 12px;
+}
+.join:hover {
+  background-color: #ed759f;
+  color: rgb(210, 221, 217);
+  cursor: pointer;
+  /* padding: 20px 30px; */
+}
